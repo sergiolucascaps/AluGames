@@ -14,4 +14,10 @@ fun main() {
 
     val json = response.body()
     println(json)
+
+    val meuJogo = Jogo()
+    meuJogo.capa = "Capa do jogo"
+    meuJogo.titulo = "Titulo do Jogo"
+
+    print(meuJogo)
 }
